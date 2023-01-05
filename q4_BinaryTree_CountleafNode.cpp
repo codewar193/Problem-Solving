@@ -25,8 +25,7 @@ struct Node* newNode(int data)
 int countNonleaf(struct Node* root)
 {
 	// Base cases.
-	if (root == NULL || (root->left == NULL &&
-						root->right == NULL))
+	if (root == NULL || (root->left == NULL && root->right == NULL))
 		return 0;
 
 	// If root is Not NULL and its one of its
