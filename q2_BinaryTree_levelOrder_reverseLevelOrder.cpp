@@ -18,8 +18,6 @@ class node {
 
 void reverseLevelOrder(node* root)
 {//The idea is to print the last level first, then the second last level, and so on
-
-
     stack <node *> S;
     queue <node *> Q;
     Q.push(root);
