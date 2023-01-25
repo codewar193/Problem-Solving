@@ -29,3 +29,19 @@ int main() {
     return 0;
 }
 
+## Topic: Pascal's Triangle
+
+Pascal’s triangle is an array of binomial coefficients. The top row is numbered as n=0, and in each row are numbered from the left beginning with k = 0. Each number is found by adding two numbers which are residing in the previous row and exactly top of the current cell. It is also being formed by finding (𝑛𝑘) for row number n and column number k.
+
+Suppose the input is 9, then the output will be like −
+               
+               1
+              1 1
+             1 2 1
+            1 3 3 1
+           1 4 6 4 1
+         1 5 10 10 5 1
+       1 6 15 20 15 6 1
+      1 7 21 35 35 21 7 1
+     1 8 28 56 70 56 28 8 1 
+     
