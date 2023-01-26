@@ -1,0 +1,38 @@
+/*
+class Solution {
+public:
+    vector<int> getRow(int rowIndex) {
+         vector<vector<int>>v={{1}};
+          vector<int> result;
+        if(rowIndex==0){
+            result.push_back(1);
+            return result;
+        }
+        for(int i =1;i<=rowIndex;i++)
+        {
+            vector<int> v1;
+            v1.push_back(1);
+
+            for(int j=1;j<=i-1;j++)
+            {
+              v1.push_back(v[i-1][j-1]+v[i-1][j]);
+            }
+            v1.push_back(1);
+            v.push_back(v1);
+
+            if(i == rowIndex )
+             {
+                 for(int i=0;i<v1.size();i++)
+                 {
+                     result.push_back(v1[i]);
+                 }
+             }
+
+        }
+        return result;
+    }
+    
+};
+
+
+*/
