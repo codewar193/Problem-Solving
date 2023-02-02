@@ -4,7 +4,6 @@
 using namespace std;
 /*Tree Traversals (Inorder, Preorder and Postorder)*/
 
-
 class node {
     public:
      int data;
