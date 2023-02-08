@@ -28,7 +28,6 @@ vector<int> ans;
        
     }
         
- 
     while (j < n){
           ans.push_back(nums2[j]);
         	  j++;
