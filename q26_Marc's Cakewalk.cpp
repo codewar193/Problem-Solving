@@ -1,4 +1,4 @@
-#PrepareAlgorithmsGreedyMarc's Cakewalk
+//PrepareAlgorithmsGreedyMarc's Cakewalk
 
 /*
  * Complete the 'marcsCakewalk' function below.
