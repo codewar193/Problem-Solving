@@ -37,8 +37,7 @@ vector<int> ans;
     while(t<(m+n)){
             nums1[t] = ans[t];
             t++;
-        }
-        
+        }       
 }
 };
 
