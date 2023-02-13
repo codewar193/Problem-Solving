@@ -18,8 +18,6 @@ Explanation: In this case, no transactions are done and the max profit = 0.
 
 // Time Complexity: O(N). Where N is the size of prices array. 
 // Auxiliary Space: O(1). We do not use any extra space. 
-
-
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
