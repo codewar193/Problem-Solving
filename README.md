@@ -45,3 +45,18 @@ Suppose the input is 9, then the output will be like −
       1 7 21 35 35 21 7 1
      1 8 28 56 70 56 28 8 1 
      
+     
+ # Topic:Code Optimization Using Hashing
+ ## What is Hashing ?
+ • Hashing is a technique of generating an index
+for a key using a formula called Hash Function
+to store and retrieve information efficiently.
+
+
+• It is used to perform optimal searches.
+
+• Generating an index or position for a key is
+also known as Direct Addressing
+     
+     
+     
