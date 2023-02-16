@@ -32,5 +32,6 @@ public:
          if(isPrime[i]==1)count++;
      }
      return count;
+        
     }
 };
