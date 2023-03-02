@@ -26,7 +26,6 @@ public:
             {
                   k++;
                nums[k]=nums[i];//or can use     nums[++k]=nums[i];
-            
             }
         }
 return k+1;
