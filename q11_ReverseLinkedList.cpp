@@ -19,7 +19,6 @@ public:
             curr->next = prev;
             prev=curr;
             curr=temp;
-
         }
         return prev;
     }
