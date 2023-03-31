@@ -29,7 +29,6 @@ for(int i=0,j=s.size()-1;j>i;i++,j--)
     while(isalnum(s[j])==false && i<j)j--;
      if(toupper(s[i])!=toupper(s[j]))return false;
 }
-
 return true;
     }
 
