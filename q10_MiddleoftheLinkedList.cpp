@@ -12,8 +12,7 @@ public:
     ListNode* middleNode(ListNode* head) {
         ListNode* temp=head;
         int count=0,i=0;
-
-        while(temp){
+         while(temp){
         temp=temp->next;
         count++;
         }
