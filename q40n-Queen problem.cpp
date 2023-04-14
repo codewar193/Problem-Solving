@@ -1,6 +1,5 @@
 /* C++ program to solve N Queen Problem using
 backtracking */
-
 #include <bits/stdc++.h>
 #define N 4
 using namespace std;
