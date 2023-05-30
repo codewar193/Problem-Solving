@@ -61,44 +61,39 @@ also known as Direct Addressing
 ## Topic:  Important interview questions in DSA
      
      
-1.What  is Data Structure?                                                                                                                                                  A data structure is a way of organizing and storing data in a computer's memory in a manner that enables efficient access, manipulation, and management of the data. It provides a means to organize and structure data elements such that they can be efficiently processed and used in various algorithms and operations.
+###1.What  is Data Structure?                                                                                                                                                  A data structure is a way of organizing and storing data in a computer's memory in a manner that enables efficient access, manipulation, and management of the data. It provides a means to organize and structure data elements such that they can be efficiently processed and used in various algorithms and operations.
 
 In simpler terms, a data structure defines how data is organized and arranged in memory, along with the operations that can be performed on that data. It determines how the data can be stored, accessed, and modified.                                   
 
-2.What is difference between file structure and data structure 
+###2.What is difference between file structure and data structure?
 Here's a tabular comparison between file structure and data structure:
-Aspect	File Structure	Data Structure
-Purpose	Organizing and storing data in files	Organizing and manipulating data in memory
+Aspect	                     File Structure	                               Data Structure
+                     --------------------------------                 -----------------------------------
+Purpose    	Organizing and storing data in files	           Organizing and manipulating data in memory
 Representation	Stored on secondary storage devices (e.g., disks)	Stored in computer memory
 Access	Sequential or random access	Direct access or traversal
-Persistence	Persistent (data remains even after program ends)	Volatile (data is lost when program execution ends)
-Examples	Text files, databases, spreadsheets	Arrays, linked lists, stacks, queues, trees
-Operations	File operations (e.g., read, write, delete)	Data operations (e.g., insert, delete, search)
-Extensibility	Limited extensibility (fixed size, append-only)	Dynamic size and can be modified easily
-Indexing	Usually requires explicit indexing mechanisms	Built-in indexing mechanisms for efficient access
-Concurrency	Typically requires synchronization mechanisms	Supports concurrent operations
-Performance	Slower access due to disk I/O latency	Faster access due to memory-based operations
-Relationship	A collection of related records	A logical representation of data relationships
+Persistence	Persistent (data remains even after program ends)     Volatile (data is lost when program execution ends)
+Examples	Text files, databases, spreadsheets	Arrays,        linked lists, stacks, queues, trees
+Operations	File operations (e.g., read, write, delete)	       Data operations (e.g., insert, delete, search)
+Extensibility	Limited extensibility (fixed size, append-only)	       Dynamic size and can be modified easily
+Indexing	Usually requires explicit indexing mechanisms	       Built-in indexing mechanisms for efficient access
+Concurrency	Typically requires synchronization mechanisms	       Supports concurrent operations
+Performance	Slower access due to disk I/O latency	               Faster access due to memory-based operations
+Rela
 
-		
-It's important to note that while file structures primarily deal with storing and retrieving data from secondary storage devices (such as disks), data structures are focused on organizing and manipulating data in memory for efficient operations and algorithm design.
+###3. What is Linked List in pointy ?
 
-
-
-3. What is Linked List in pointy ?
-Sure! Here's a concise explanation of a Linked List in bullet points:
-
-A Linked List is a linear data structure.
-Elements are stored in nodes.
-Each node contains a data element and a reference (or link) to the next node.
-The first node is called the head.
-The last node points to null, indicating the end of the list.
-Linked lists provide dynamic memory allocation.
-Insertion and deletion operations are efficient at any position in the list.
-There are different types of linked lists, such as singly linked lists, doubly linked lists,  and circular linked lists.
-Singly linked lists have nodes that point to the next node.
-Doubly linked lists have nodes that have references to both the next and previous nodes.
-Circular linked lists have the last node pointing back to the head, forming a loop.
+a.A Linked List is a linear data structure.
+b.Elements are stored in nodes.
+c.Each node contains a data element and a reference (or link) to the next node.
+d.The first node is called the head.
+e.The last node points to null, indicating the end of the list.
+f.Linked lists provide dynamic memory allocation.
+g.Insertion and deletion operations are efficient at any position in the list.
+h.There are different types of linked lists, such as singly linked lists, doubly linked lists,  and circular linked lists.
+i.Singly linked lists have nodes that point to the next node.
+j.Doubly linked lists have nodes that have references to both the next and previous nodes.
+k.Circular linked lists have the last node pointing back to the head, forming a loop.
 
 
 4.Where are Data Structure's primarily used ?
