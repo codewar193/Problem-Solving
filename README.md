@@ -58,5 +58,5 @@ to store and retrieve information efficiently.
 • Generating an index or position for a key is
 also known as Direct Addressing
      
-## Topic:  Important interview questions in DSA
+### Topic:  Important interview questions in DSA
      
