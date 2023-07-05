@@ -14,7 +14,6 @@ Bitwise operators can make some code faster and more efficient. Examples of uses
 
 Example-1: Swapping
 #include <stdio.h>
-
 int main() {
     int i = 65;
     int k = 120;
